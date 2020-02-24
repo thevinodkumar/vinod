@@ -1,0 +1,186 @@
+    .division {
+      top: 0;
+      background-color: lavenderblush;
+      margin-left: 12%;
+      position: absolute;
+      overflow: hidden;
+      width: 75%;
+    }
+
+    .awesome {
+      background-color: black;
+      background-size: cover;
+      padding: 15px;
+    }
+.awesome img{
+  border-radius: 50%;
+  float: left;
+  outline: none;
+}
+.awesome h1{
+  color: white;
+font-size: 35px;
+
+}
+    nav {
+      background-color: rgba(143, 7, 206, 0.856);
+      overflow: hidden;
+      width: 100%;
+    }
+
+    nav ul {
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    nav ul li {
+      float: left;
+    }
+
+    nav ul li a {
+      text-decoration: none;
+      color: white;
+      padding: 12px 25px;
+      display: inline-block;
+      font-size: 18px;
+    }
+
+    nav ul li a:hover {
+      background-color: rgb(195, 10, 241);
+      color: black;
+    }
+
+    .division .dropdown_list {
+      background-color: #bd14e7;
+      position: absolute;
+      display: none;
+    }
+
+    .dropdown_list a {
+      display: block;
+    }
+
+    .dropdown:hover .dropdown_list {
+      display: block;
+    }
+
+    .prof {
+      background-color: whitesmoke;
+      text-align: center;
+      overflow: hidden;
+    }
+
+    .imggallery {
+      padding: 45px;
+    }
+
+    .imgsection {
+      border: 2px soli white;
+      width: 175px;
+      float: left;
+      text-align: center;
+      padding: 15px;
+      border-radius: 15px;
+      margin: 10px;
+      background-color: white;
+    }
+
+    .imgsection img {
+      width: 100%;
+      height: 200px;
+      box-shadow: 0 0 15px black;
+      padding: 5px;
+      border-radius: 20%;
+      border-bottom: 4px solid black;
+    }
+
+    .imgsection button {
+      background-color: white;
+      font-size: 18px;
+      color: darkkhaki;
+      border: none;
+      padding: 10px 30px;
+      overflow: hidden;
+      outline: none;
+      border-color: white;
+      border-bottom: 4px solid black;
+    }
+
+    .imgsection :hover {
+      border-bottom: 4px solid yellow;
+      overflow: hidden;
+      color: black;
+    }
+
+    .footerslide {
+      padding: 50px;
+      width: 100%;
+      overflow: hidden;
+      background-color: black;
+    }
+
+    .loginform {
+      text-align: center;
+      padding: 15px;
+      width: 850px;
+      background-color: yellow;
+      border-radius: 10px;
+    }
+
+    .loginform img {
+      outline: none;
+      margin-top: -50px;
+      border-radius: 50%;
+    }
+
+    input[type='email'] {
+      height: 35px;
+      font-size: 18px;
+      text-align: center;
+      border: 2px solid wheat;
+      outline: none;
+      margin: 5px;
+      background: yellow;
+      color: black;
+    }
+
+    input[type='submit'] {
+      margin: 20px 0 20px 0;
+      background-color: #00AEEF;
+      color: white;
+      border: none;
+      font-size: 20px;
+      padding: 10px 40px;
+      border-radius: 50px;
+      outline: none;
+    }
+
+    input[type=submit]:hover {
+      background-color: #1E83A8;
+      cursor: pointer;
+      box-shadow: 0 0 10px white;
+    }
+
+    input[type='email']:focus {
+      border-bottom: 3px solid #00AEEF;
+    }
+
+    ::placeholder {
+      color: lightgray;
+    }
+
+    .decade {
+      text-align: justify;
+      border-bottom: 4px solid white;
+    }
+
+    .main-footer {
+      color: white;
+      padding: 10px;
+      text-align: center;
+    }
+
+    .main-footer a {
+      color: orange;
+    }
